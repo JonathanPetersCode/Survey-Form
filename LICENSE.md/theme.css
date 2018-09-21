@@ -1,0 +1,47 @@
+#title{
+  color: blue; 
+}
+
+#description{
+  color: purple;
+  text-decoration: underline;
+  font-style: bold;
+}
+
+#survey-form{
+  color: green; 
+  text-decoration: underline;
+  font-style: bold;
+}
+
+#name{
+   color: red; 
+  text-decoration: underline;
+  font-style: bold;
+}
+
+#email{
+   color: grey; 
+  text-decoration: underline;
+  font-style: bold;
+}
+
+#number-label{
+  color: #42e2f4;
+}
+
+#name-label{
+  color: #42e2g4;
+}
+
+#email-label{
+    color: #45e2f4;
+}
+
+#dropdown{
+  color: green;
+}
+
+#submit{
+  color: orange; 
+}
