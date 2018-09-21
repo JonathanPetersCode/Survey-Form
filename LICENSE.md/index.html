@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+  <h1 id="title">Survey Form H1</h1> <title>Survey Form</title> 
+  <link rel="stylesheet" type="text/css" href="theme.css">
+  </head>
+  
+  <body>
+  <header></header>
+     <!-- Description ID's -->
+    <p id = "description"> Survey Form Description</p>
+    <form id = "survey-form">
+     
+       <!-- Validation Labels -->
+      <label for "name-label" id = "name-label"> First Name:</label>
+      <input type= "text" name= "name-label" id = "name" required pattern = "^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$" placeholder="Enter your first name">  
+      
+      <label for "email-label" id = "email-label"> Email:</label>
+      <input type= "email" name= "email-label" id = "email" required placeholder="Enter an email">  
+     
+      <label for "number-label" id = "number-label"> Number: </label>
+      <input type= "number" name = "number-label" id = "number" required value="1" min="1" max="10" placeholder="Enter a number">
+      
+<select name= "drop" id = "dropdown">
+     <option value= "Option 1"> Option 1</option>
+         <option value= "Option 2"> Option 2</option>
+        <option value= "Option 3"> Option 3</option>
+      </select>
+     
+      <!-- Radio Buttons -->
+      <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female">  Female<br>
+  <input type="radio" name="gender" value="other">  Other
+       <!-- Checkboxes Options -->
+       
+      <input type = "checkbox" name = "Height" value = "I am tall"> I am tall <br> 
+      <input type = "checkbox" name = "Height" value = "I am short"> I am short <br> 
+      <input type = "checkbox" name = "Height" value = "I not tall or short" checked> I not tall or short <br> 
+      <!-- Text Area Tag -->
+      <textarea rows="4" cols="50">
+This site is extremely helepful, thank you for making this resources available to the public.
+        </textarea>
+      <button id = "submit"> Submit </button>
+    
+    </form>
+    
+  </body>
+  
+  <footer>
+    Survey Form 2018 - Jonathan Peters
+  </footer>
+  
+</html>
